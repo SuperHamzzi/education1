@@ -1,0 +1,9 @@
+package inheritanceExam;
+
+public class StudentRunner {
+	public static void main(String[] args) {
+		Student kim = new Student("123123","김재혁",25);
+	System.out.println(kim);
+	}
+
+}

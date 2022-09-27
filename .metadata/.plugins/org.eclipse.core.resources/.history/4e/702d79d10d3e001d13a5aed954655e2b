@@ -1,0 +1,35 @@
+package inheritanceExam;
+
+public class Bird extends Animal{
+
+	String wings;
+	
+	public Bird() {
+		
+	}
+	public Bird(String eye, String mouth, String name, String wings) {
+		super();
+		this.eye = eye;
+		this.mouth = mouth;
+		this.name = name;
+		this.wings = wings;
+	}
+//	public void showBird() {
+//		System.out.println("eye:" + eye);
+//		System.out.println("mouth:" + mouth);
+//		System.out.println("name:" + name);
+//		System.out.println("wings:" + wings);
+//		
+//	}
+	public void eat() {
+		System.out.println("부리로 모이를 먹는다.");
+	}
+	
+	public void cry() {
+		System.out.println("짹잭");
+	}
+	public void fly(){
+		System.out.println("새가 날아간다");
+	}
+}
+

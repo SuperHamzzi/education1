@@ -1,0 +1,17 @@
+package packageAndimprot;
+
+import test.importTest;
+
+public class importExam{
+
+	public static void main(String[] args) {
+	importTest test = new importTest();
+	test.show();
+	test.shows();
+	System.out.println(test.shows());
+	System.out.println(test.show());
+
+
+	}
+
+}

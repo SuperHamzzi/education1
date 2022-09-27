@@ -1,0 +1,13 @@
+package day06Exam;
+
+public class StudentTest1Main {
+
+	public static void main(String[] args) {
+		
+		//객체 생성
+		StudentTest1 kim = new StudentTest1();
+		StudentTest1 park = new StudentTest1();
+		System.out.println(kim);
+	}
+
+}

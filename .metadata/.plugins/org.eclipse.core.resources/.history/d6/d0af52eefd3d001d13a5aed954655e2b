@@ -1,0 +1,13 @@
+package packageAndimprot;
+
+import test.importTest;
+
+public class importExam extends importTest{
+
+	public static void main(String[] args) {
+	importTest test = new importTest();
+	test.show();
+
+	}
+
+}

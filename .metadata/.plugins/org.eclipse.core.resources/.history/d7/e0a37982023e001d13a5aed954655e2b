@@ -1,0 +1,18 @@
+package test;
+
+public class importTest {
+	public static void main(String[] args) {
+		importTest.shows();
+		shows();
+	}
+	String name;
+
+	public void show() {
+		System.out.println("import연습");
+	}
+	static void shows() {
+		System.out.println("안녕");
+	}
+	}
+	
+

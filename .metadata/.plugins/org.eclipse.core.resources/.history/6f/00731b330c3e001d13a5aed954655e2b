@@ -1,0 +1,18 @@
+package inheritanceExam;
+
+public class Cat {
+
+	String eye;
+	String mouth;
+	String name;
+	public void eat() {
+		
+	}
+	public void sleep() {
+		
+	}
+	
+	public void cry() {
+		System.out.println("야옹");
+	}
+}

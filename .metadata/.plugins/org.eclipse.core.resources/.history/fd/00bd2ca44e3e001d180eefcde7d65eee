@@ -1,0 +1,66 @@
+package bankExam;
+
+import java.util.Scanner;
+
+public class BankRunner {
+
+	public static void main(String[] args) {
+		AccountCreation number1 = new AccountCreation();
+		Scanner sc = new Scanner(System.in);
+		int choose =0 ;
+		System.out.println("==========================================================");
+		System.out.println("1. 계좌생성 | 2. 계좌목록 | 3. 예금 | 4. 출금 | 5. 종료");
+		System.out.println("==========================================================");
+		System.out.print("선택 >");
+		choose = sc.nextInt();
+		if(choose==1) {
+			System.out.println(number1);
+		}
+	}
+
+}
+class AccountCreation{
+	private String accountNumber ="123-111";
+	private String name ="홍길동";
+	private int initialDepositAmount=3000;
+	
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getInitialDepositAmount() {
+		return initialDepositAmount;
+	}
+	public void setInitialDepositAmount(int initialDepositAmount) {
+		this.initialDepositAmount = initialDepositAmount;
+	}
+	@Override
+	public String toString() {
+		return "-------"+"계좌생성"+"-------"+"계좌번호:" + accountNumber + "\n예금주:" + name + "\n초기입금액:"
+				+ initialDepositAmount;
+	}
+	
+		
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+

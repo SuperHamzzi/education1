@@ -1,0 +1,24 @@
+package arrayExam;
+
+
+
+public class Exam {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	int student = 0;
+	double score = 0.0;
+	int[] scores = null;
+	boolean run = false;
+	
+	while(run) {
+		if()
+		
+		
+		
+		
+	}
+	
+	}
+
+}

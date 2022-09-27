@@ -1,0 +1,39 @@
+package polymorphism.exam;
+
+public class AnimalExam {
+	public static void main(String[] args) {
+		Animal ani = new Animal();
+		Dog dog = new Dog();
+		Cat cat = new Cat();
+		Bird bird = new Bird();
+		
+		ani.cry();
+		dog.cry();
+		dog.running();
+		cat.cry();
+		cat.jump();
+		bird.cry();
+		bird.fly();
+		System.out.println();
+		
+	
+		
+		
+		
+		aniCat.cry();
+		
+		aniDog.cry();
+		
+	
+		
+		System.out.println();
+		
+		//배열로 처리
+		Animal[] aniArray = new Animal[] {new Dog(),new Cat(),new Bird()};
+		
+		for(Animal arr: aniArray) {
+			arr.cry();
+		}
+		
+	}
+}

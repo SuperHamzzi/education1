@@ -1,0 +1,12 @@
+package day06Exam;
+
+public class StudentTest1Main {
+
+	public static void main(String[] args) {
+		
+		//객체 생성
+		StudentTest1 stu = new StudentTest1();
+
+	}
+
+}

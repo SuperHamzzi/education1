@@ -1,0 +1,10 @@
+package inheritanceExam;
+
+public class Cat {
+
+
+
+	public void jumping() {
+		System.out.println("고양이는 뛴다");
+	}
+}

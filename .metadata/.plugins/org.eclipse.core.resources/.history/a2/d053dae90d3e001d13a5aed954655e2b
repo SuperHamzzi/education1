@@ -1,0 +1,12 @@
+package inheritanceExam;
+
+public class Bird extends Animal{
+
+	String wings;
+	
+
+	public void fly(){
+		System.out.println("새가 날아간다");
+	}
+}
+

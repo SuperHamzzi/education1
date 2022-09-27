@@ -1,0 +1,23 @@
+package day0606;
+
+class MethodOverloading{
+	public int add(int x, int y) {
+		return x +y;
+	}
+	public int add(int x, int y,int z) {
+		return x +y+z;
+	}
+	public double add(double x, double y) {
+		return double(x+y);
+	}
+}
+
+
+public class MethodOverloadingExam {
+
+	public static void main(String[] args) {
+	
+	}
+	
+
+}

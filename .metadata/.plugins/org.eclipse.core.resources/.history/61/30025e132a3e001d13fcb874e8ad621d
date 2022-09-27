@@ -1,0 +1,7 @@
+package inheritanceExam;
+
+public class Student {
+//학번,이름,나이 -private
+private String studentNumber;
+private String name;
+private int age;

@@ -1,0 +1,11 @@
+package runner;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		int[] arr = {73,83,96,20,15,65,72};
+		System.out.println(Math.max(arr));
+
+	}
+
+}

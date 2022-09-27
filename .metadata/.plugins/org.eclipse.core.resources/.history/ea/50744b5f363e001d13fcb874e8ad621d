@@ -1,0 +1,8 @@
+package polymorphism;
+
+public class CastB extends CastA{
+	int n = 4;
+	void showB() {
+		System.out.println("B클래스");
+	}
+}
